@@ -1,0 +1,23 @@
+{
+  "name": "goandlive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celine2/GoandLive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Celine2/GoandLive/issues"
+  },
+  "homepage": "https://github.com/Celine2/GoandLive#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3"
+  }
+}
