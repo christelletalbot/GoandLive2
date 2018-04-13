@@ -1,171 +1,30 @@
-<<<<<<< HEAD
-/* Header */
-.head-title{
-	background-color: green;
-	width: 100%;
-	height: 15vh;
+/* Welcome Page 1*/
+ 
+.title{
+	font-size: 2em;
+	display: flex;
 }
-
-/* main */
-
-main{
-	height: 70vh;
+.title-cag{
+	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 2em;
+	color: white;
 }
-
-/* Footer */
-.footer-title{
-	background-color: red;
-	width: 100%;
-	height: 15vh;
+.rond{
+	background-color: white;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	display: inline-flex;
+	background: url('/css/img/clc.jpg') center;
 }
-=======
-/** create_account **/
-
-
-/** footer **/
-
-
-
-/** header **/
-
-
-
-/** identify **/
-body{
-	padding-top: 10px;
+.title-bot{
+	font-size: 1em;
+	display:flex;
 }
-.header{
-	background-color: #b0abab;
-  	line-height: 80px;
-  	text-align: center;
+.title-cag-bot{
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 0.8em;
+	color: white;
 }
-.identify{
-	background-color: #5bc6c6;
-	margin-top: 20px;
-  	line-height: 40px;
-  	text-align: center;
-}
-.fb{
-	background-color: #776fb2;
-	margin-top: 20px;
-	margin-left: 38%;
-	margin-right: 38%;
-  	line-height: 40px;
-  	text-align: center;
-}
-.choice{
-	margin-top: 10px;
-	margin-right: 20px;
-  	line-height: 40px;
-  	text-align: center;
-		
-}
-.mail{
-	margin-top: 10px;
-	margin-right: 250px;
-  	line-height: 40px;
-  	text-align: center;
-	
-}
-.ml{
-	background-color: #57c421;
-	margin-left: 38%;
-	margin-right: 38%;
-  	line-height: 40px;
-  	text-align: center;
-}
-:required {
-	border: 2px dotted black;
-}
-.pass{
-	margin-top: 20px;
-	margin-right: 250px;
-  	line-height: 40px;
-  	text-align: center;
-	
-}
-.pswd{
-	background-color: #57c421;
-	margin-left: 38%;
-	margin-right: 38%;
-  	line-height: 40px;
-  	text-align: center;
-}
-:required {
-	border: 2px dotted black;
-}
-.connect{
-	background-color: #5bc6c6;
-	margin-top: 20px;
-	margin-left: 38%;
-	margin-right: 38%;
-  	line-height: 40px;
-  	text-align: center;
-}
-.noAccount{
-	margin-left: 158px;
-  	line-height: 40px;
-  	text-align: center;
-	
-}
-.footer{
-	background-color: #b0abab;
-  	margin-top: 10px;
-  	line-height: 40px;
-  	text-align: center;
-}
-
-
-
-/** visual_pool **/
-
-
-
-/** welcome_page1 **/
-body{
-	padding-top: 10px;
-}
-.header{
-	background-color: #b0abab;
-	margin-top: 10px;
-  	line-height: 40px;
-  	text-align: center;
-}
-.prgp{
-	margin-top: 10px;
-	margin-left: 18px;
-  	line-height: 40px;
-  	text-align: center;
-}
-.pg{
-	margin-top: 10px;
-	margin-left: 158px;
-	margin-right: 158px;
-  	line-height: 40px;
-  	text-align: center;
-}
-.btnG{
-	margin-top: 10px;
-	margin-left: 158px;
-	margin-right: 158px;
-  	line-height: 40px;
-  	text-align: center;	
-}
-.btnD{
-	margin-top: 10px;
-	margin-left: 158px;
-	margin-right: 158px;
-  	line-height: 40px;
-  	text-align: center;
-}
-.footer{
-	background-color: #b0abab;
-	margin-top: 10px;
-  	line-height: 40px;
-  	text-align: center;
-}
-
-
-
-/** welcome_page2 **/
->>>>>>> 8db16c6a9d5cbca071eb2d55c6d23e9164563bb6

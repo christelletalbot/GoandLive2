@@ -9,5 +9,12 @@
 </head>
 <body>
 	<header>
-		<div class="header">Header</div>
+		<nav class="navbar navbar-expand-lg">
+			<a href="#"><img src="css/img/logo-go-and-live-group.png" alt="goandlive"></a>
+			<ul class="navbar-nav">
+				<li><a href="#">Accueil</a></li>
+				<li><a href="#">Connexion</a></li>
+				<li><a href="#">Contactez-nous</a></li>
+			</ul>
+		</nav>
 	</header>
