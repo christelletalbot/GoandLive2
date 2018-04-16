@@ -12,5 +12,26 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$name = 'Javanet-Florian';
+	$isWeekend = date('N') >= 6;
+    return view('welcome', compact('name','isWeekend'));
+});
+
+Route::get('/about', function () {
+    return view('pages/about');
+});
+
+Route::get('/help', function () {
+    return view('pages/help');
+});
+
+Route::get('/events', function(){
+	$events = [
+		'Make php Confrence',
+		'Makeup Confrence',
+		'Laravel teach',
+		'jQuery Condrence'
+	];
+
+	return view('events/index', compact('events'));
 });
