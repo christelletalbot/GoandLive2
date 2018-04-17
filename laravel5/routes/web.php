@@ -13,8 +13,11 @@
 
 Route::get('/', function () {
 	$name = 'Javanet-Florian';
-	$isWeekend = date('N') >= 6;
-    return view('welcome', compact('name','isWeekend'));
+
+	dump( DB::table('Stock')->whereMarqueOrModele('peugeot', 'clio')->orderBy('kilometrage', 'desc')->get() );
+
+
+    return view('welcome', compact('name'));
 });
 
 Route::get('/about', function () {
@@ -34,4 +37,16 @@ Route::get('/events', function(){
 	];
 
 	return view('events/index', compact('events'));
+});
+
+Route::get('/visual_pool', function(){
+	return view('pages/visual_pool');
+});
+
+Route::get('/welcome_page1', function(){
+	return view('pages/welcome_page1');
+});
+
+Route::get('/welcome_page2', function(){
+	return view('pages/welcome_page2');
 });
