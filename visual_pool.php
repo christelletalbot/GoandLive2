@@ -1,57 +1,43 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
+	<title>Visual_Pool</title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" href="css/style.css"/>
-	<title>Visual Pool</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-	<header></header>
 
-	<div class="nav">
-		<nav class="navbar navbar-default">
-			<div class="container-fluid">
-				<div class="navbar-header">	
-					<ul>
-						<li>
-							<button type="button" class="btn-default btn-lg">
-								<a href="#">Cagnottes privées</a>
-							</button>
-						</li>
-						<li>
-							<button type="button" class="btn-default btn-lg">
-								<a href="#">Effectuer un don </a>	
-							</button>	
-						</li>
-						<li>
-							<button type="button" class="btn-default btn-lg">
-								<a href="#">Créer une cagnotte</a>	
-							</button>	
-						</li>
-						<li>
-							<button type="button" class="btn-default btn-lg">
-								<a href="#">Nous contacter</a>
-							</button>	
-						</li>
+<body>
+<div class="container">
+	<header class="header">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+			<a class="col-1" href="#"><img src="css/img/logo-go-and-live-group.png" alt="goandlive"></a>
+				<div class="col-4 row">
+					<ul class="navbar-nav ml-auto mr-auto">
+						<li class="nav-item col-4"><a class="nav-link text-white" href="#">Accueil</a></li>
+						<li class="nav-item col-4"><a class="nav-link" href="#" data-toggle="modal" data-target="#ModalConnexion">Connexion</a></li>
 					</ul>
 				</div>
-			</div>	
+				<div class="col">
+					<ul class="navbar-nav">
+						<li class="nav-item ml-auto"><a class="nav-link" href="#">Contactez-nous</a></li>
+					</ul>
+				</div>
 		</nav>
-	</div>
+	</header>
 
 
 	<div class="title">
-		<h1 style="text-align: center">Destination</h1>
-		<h2 style="text-align: center">Nom de la personne</h2>
+		<h1 >Destination</h1>
+		<h2>Nom de la personne</h2>
 	</div>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
 
-				<h2 style="text-align: center">Description</h2>
+				<h2>Description</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -63,14 +49,14 @@
 					<img src="https://cdn.pixabay.com/photo/2018/04/10/02/07/panoramic-3306144_960_720.jpg" alt="New-York" style="width: 90%">
 					<br><br>
 					<div class="smallPictures">
-						<img src="https://cdn.pixabay.com/photo/2018/04/10/02/07/panoramic-3306144_960_720.jpg" alt="New-York" style="width: 30%">
-						<img src="https://cdn.pixabay.com/photo/2018/04/10/02/07/panoramic-3306144_960_720.jpg" alt="New-York" style="width:30%">
-						<img src="https://cdn.pixabay.com/photo/2018/04/10/02/07/panoramic-3306144_960_720.jpg" alt="New-York" style="width: 30%">
+						<img src="css/img/londres.jpg" alt="Londres" style="width: 30%">
+						<img src="css/img/londres.jpg" alt="Londres" style="width:30%">
+						<img src="css/img/londres.jpg" alt="Londres" style="width: 30%">
 					</div>
 				</div>
 			</div>
 
-			<div class="col-md-6" style="text-align: center">
+			<div class="col-md-6">
 				<div id=activeInactive>
 					<h3>Disponibilité cagnotte</h3>
 					<label class="checkbox-inline">
@@ -103,10 +89,13 @@
 			</div>
 		</div>
 	</div>
-	
 
 	<footer></footer>
-
-
-</body>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</body
+<?php include ('footer.php') ; ?>
 </html>
