@@ -10,7 +10,7 @@
 				<div class="col title-cag">Des cagnottes pour les voyages</div>
 			</div>
 			<div class="test row justify-content-around">
-				<div class="col-1 rond"></div>
+				<div class="col-1 rond"><span>Test</span></div>
 				<div class="col-1 rond"></div>
 				<div class="col-1 rond"></div>
 				<div class="col-1 rond"></div>
@@ -52,18 +52,19 @@
 		      <div class="modal-body">
 		      	<p><a href="#" class="btn btn-primary text-white">Connectez-vous en tant que</a></p>
 		      	<p>ou</p>
-		        <form>
+		        <form method="post">
+		        	 {{ csrf_field() }}
 				  <div class="form-group">
 				    <label for="InputLastame">Nom</label>
-				    <input type="email" class="form-control" id="InputLastname" aria-describedby="Lastname" placeholder="Entre ton Nom">
+				    <input type="text" class="form-control" id="InputLastname" aria-describedby="Lastname" placeholder="Entre ton Nom" name="nom">
 				  </div>
 				  <div class="form-group">
 				    <label for="InputName">Nom</label>
-				    <input type="email" class="form-control" id="InputName" aria-describedby="Name" placeholder="Entre ton Prénom">
+				    <input type="text" class="form-control" id="InputName" aria-describedby="Name" placeholder="Entre ton Prénom" name="prenom">
 				  </div>
 				  <div class="form-group">
 				    <label for="Birthdate">Date de naissance</label>
-				    <input type="date" class="form-control" id="Birthdate" aria-describedby="Name" placeholder="Entre ton Nom">
+				    <input type="date" class="form-control" id="Birthdate" aria-describedby="Name" name="birthday">
 				  </div>
 				  <div class="form-group">
 				    <label for="Birthdate">Portable</label>
@@ -71,22 +72,23 @@
 				  </div>	  		  		  		  		  		  
 				  <div class="form-group">
 				    <label for="exampleInputEmail1">Email address</label>
-				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="email">
 				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 				  </div>
 				  <div class="form-group">
 				    <label for="exampleInputPassword1">Password</label>
-				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+				    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
 				  </div>
 				  <div class="form-check">
 				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
 				    <label class="form-check-label" for="exampleCheck1">Check me out</label>
 				  </div>
+				  <button type="submit" class="btn btn-primary">Incription</button>
 				</form>
 
 		      </div>
 		      <div class="modal-footer">
-		        <button type="button" class="btn btn-primary">Incription</button>
+		        <button type="submit" class="btn btn-primary">Incription2</button>
 		        <button type="button" class="btn btn-secondary" data-dismiss="modal" data-toggle="modal" data-target="#ModalConnexion">Déjà un compte ?</button>        
 		      </div>
 		    </div>

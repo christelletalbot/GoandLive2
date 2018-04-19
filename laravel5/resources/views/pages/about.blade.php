@@ -8,6 +8,7 @@
 @include('partials/weekend')
 
 @endsection 
-@section('script.footer')
-<script src="#"></script>
-@endsection
+
+@section('footer')
+<p>Footer Page About</p>
+@section

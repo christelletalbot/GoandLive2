@@ -2,7 +2,8 @@
 
 @section('content')
     <h1>Goandlive</h1>
-        {{$name}}
+   
+{{$post}}
 @include('partials/weekend')
 
 @endsection 

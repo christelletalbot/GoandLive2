@@ -19,6 +19,12 @@
 	display: inline-flex;
 	background: url('img/clc.jpg') center;
 }
+
+.rond span{
+	color: green;
+	display: flex;
+	margin: auto;
+}
 .title-bot{
 	font-size: 1em;
 	display:flex;
@@ -57,12 +63,16 @@ body {
 
 
 .dot {
-  	height: 100px;
-  	width: 100px;
-  	background-color: green;
-  	border-radius: 50%;
-  	display: inline-grid;
-  	margin-right: 40px;
+	background-color: green;
+	border-radius: 50px;
+	width: 100px;
+	height: 100px;
+	display: inline-flex;
 }
 
+.dot span{
+	color: white;
+	display: flex;
+	margin: auto;
+}
 
