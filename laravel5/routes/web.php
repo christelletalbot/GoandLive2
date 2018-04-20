@@ -47,13 +47,13 @@ Route::get('/events', function(){
 
 Route::get('/visual_pool', function(){
 
-	$ac_money = DB::table('pool')->first()->actual_money;
-	$name = DB::table('pool')->first()->name;
-	$destination = DB::table('pool')->first()->destination;
-	$description = DB::table('pool')->first()->description;
-	$date = date('Y-m-d H:i:s');
+	// $ac_money = DB::table('pool')->first()->actual_money;
+	// $name = DB::table('pool')->first()->name;
+	// $destination = DB::table('pool')->first()->destination;
+	// $description = DB::table('pool')->first()->description;
+	// $date = date('Y-m-d H:i:s');
 
-	return view('pages/visual_pool', compact('ac_money', 'name', 'destination', 'description', 'date'));
+	return view('pages/visual_pool');
 });
 
 Route::get('/welcome_page1', function(){

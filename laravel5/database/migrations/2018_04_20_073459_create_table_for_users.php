@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddTableUsers extends Migration
+class CreateTableForUsers extends Migration
 {
     /**
      * Run the migrations.
@@ -14,7 +14,6 @@ class AddTableUsers extends Migration
     public function up()
     {
         Schema::create('users', function (Blueprint $table) {
-
             $table->increments('id');
             $table->string('nom');
             $table->string('prenom');

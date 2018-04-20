@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class AddTablePools extends Migration
+class AddColumnNumeroTelephone extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,8 @@ class AddTablePools extends Migration
      */
     public function up()
     {
-        Schema::create('pools', function (Blueprint $table) {
-            
-            $table->increments('id');
-            $table->
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('telephone')->after('nom')->nullable();
         });
     }
 
@@ -27,8 +25,8 @@ class AddTablePools extends Migration
      */
     public function down()
     {
-        Schema::table('pools', function (Blueprint $table) {
-            //
+        Schema::table('users', function (Blueprint $table) {
+            
         });
     }
 }
