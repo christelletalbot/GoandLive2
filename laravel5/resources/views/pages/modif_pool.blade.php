@@ -3,19 +3,19 @@
 	<form method="post">
 		{{ csrf_field() }}
 		<div>
-			<h1 class="text-center mt-4">Configure ta cagnotte</h1>
+			<h1 class="text-center mt-4">Modifie ta cagnotte</h1>
 		</div> 
 		
 		<div class="form-group row justify-content-center text-right mt-4">
 			<label for="titre-cag" class="col-sm-2 col-form-label">Titre</label>
 			<div class="col-sm-4">
-				<input type="text" class="form-control" id="titre-cag" placeholder="Titre de ta cagnotte" name="titre">
+				<input type="text" class="form-control" id="titre-cag" name="titre" value="{{$titre}}">
 			</div>
 		</div>
 		<div class="form-group row justify-content-center text-right">
 			<label for="dest-cag" class="col-sm-2 col-form-label">Destination</label>
 			<div class="col-sm-4">
-				<input type="text" class="form-control" id="dest-cag" placeholder="Destination de ta cagnotte" name="destination">
+				<input type="text" class="form-control" id="dest-cag" value="{{$destination}}" name="destination">
 			</div>
 		</div>	
 
@@ -25,7 +25,7 @@
 				<div class="col-md-6">
 					<div class="form-group text-center">
 						<label for="ControlTextarea1">Description</label>
-						<textarea class="form-control" id="ControlTextarea1" placeholder="Description" maxlength="255" rows="6" name="description"></textarea>
+						<textarea class="form-control" id="ControlTextarea1"  maxlength="255" rows="6" name="description">{{$description}}</textarea>
 					</div>
 					<div class="form-group">
 						<label for="FormControlFile1">Choisi une image</label>
@@ -37,19 +37,19 @@
 					<div class="form-group row text-right">
 						<label for="spend-travel" class="col-sm-4 col-form-label">Coût du voyage</label>
 						<div class="col-sm-8">
-							<input type="number" class="form-control" id="spend-travel" placeholder="ex: 7500€" name="cost_travel">
+							<input type="number" class="form-control" id="spend-travel" value="{{$cost_travel}}" name="cost_travel">
 						</div>
 					</div>
 					<div class="form-group row text-right">
 						<label for="end-date" class="col-sm-4 col-form-label">Date du départ</label>
 						<div class="col-sm-8">
-							<input type="date" class="form-control" id="end-date" name="start_date">
+							<input type="date" class="form-control" id="end-date" value="{{$start_date}}" name="start_date">
 						</div>
 					</div>
 					<div class="form-group row text-right">
 						<label for="vip-code" class="col-sm-4 col-form-label">Code VIP</label>
 						<div class="col-sm-8">
-							<input type="text" class="form-control" id="vip-code" name="vip">
+							<input type="text" class="form-control" id="vip-code" value="{{$vip}}" name="vip">
 						</div>
 					</div>
 					<div class="form-group row">

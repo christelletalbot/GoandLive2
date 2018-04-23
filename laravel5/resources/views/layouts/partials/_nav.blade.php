@@ -1,4 +1,4 @@
-<p>Age: {{$age}} et titre: {{$title}}</p>
+<!-- <p>Age: {{$age}} et titre: {{$title}}</p>
 
 <nav>
 	<ul>
@@ -7,4 +7,4 @@
 		<li><a href="#">Help</a></li>
 		<li><a href="#">Events</a></li>
 	</ul>
-</nav>
+</nav> -->

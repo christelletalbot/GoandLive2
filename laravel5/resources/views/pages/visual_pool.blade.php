@@ -3,16 +3,16 @@
 
 
 	<div class="text-center mt-4 ">
-		<h1 class="text-capitalize"></h1>
+		<h1 class="text-capitalize">{{$titre}}</h1>
 	</div>
 	<div class="text-center mb-5">
-		<h2 class="text-capitalize"></h2>
+		<h2 class="text-capitalize">{{$destination}}</h2>
 	</div>
 
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<p class="text-center"></p>
+				<p class="text-center">{{$description}}</p>
 
 				<div class="pictures text-center">
 					<img src="css/img/londres.jpg" alt="New-York" style="width: 90%">
@@ -43,7 +43,7 @@
 				</div>
 
 				<div class="row justify-content-around mt-2">
-					<div class="dot col-3 bg-primary"><span></span></div>
+					<div class="dot col-3 bg-primary"><span>{{$ac_money}}</span></div>
 					<div class="dot col-3 bg-primary"><span>Test</span></div>
 					<div class="dot col-3 bg-primary"><span>Test</span></div>
 				</div>
