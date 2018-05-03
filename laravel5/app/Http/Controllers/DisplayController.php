@@ -69,4 +69,22 @@ class DisplayController extends Controller
 		return view ('pages/modif_profile', compact('nom', 'prenom', 'telephone', 'birthday', 'email'));
 		
     }
+
+    public function get_contact_page()
+    {
+        return view('pages/contact');
+    }
+
+    public function get_about_page()
+    {
+        return view('pages/about');
+    }
+
+    public function post_contact_page()
+    {
+        $name->name = request('votre nom');
+        $email->email = request('votre email');
+        $phone->phone = request('votre numéro de téléphone');
+        $message->message = request('votre message');
+    }
 }

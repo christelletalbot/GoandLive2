@@ -27,6 +27,14 @@ Route::post('/modif_pool', 'EditsController@edit_pool');
  Route::get('/modif_profile', 'DisplayController@get_modif_profile_page');
 Route::post('/modif_profile', 'EditsController@edit_profile');
 
+Route::get('/about', 'DisplayController@get_about_page');
+
+ Route::get('/contact', 'DisplayController@get_contact_page');
+Route::post('/contact', function(){
+	return "mail reçu";
+
+});
+
 Route::get('/inscription', function(){
 
 	Auth::attempt(['email' => 'turlututu@email.fr', 'password' => '0000']);

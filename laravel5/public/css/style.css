@@ -19,7 +19,6 @@
 	display: inline-flex;
 	background: url('img/clc.jpg') center;
 }
-
 .rond span{
 	color: green;
 	display: flex;
@@ -39,16 +38,13 @@
 /*WELCOME PAGE 2 */
 
 body {
-	background:#ddd;
-	
+	background:#ddd;	
 }
-
 .form {
 	text-align: center;
 	margin-top: 2em;
 	margin-bottom: 10em;
 }
-
 #myCarousel {
 	width: 100%;
 	margin-top: 2em;
@@ -56,11 +52,7 @@ body {
 
 }
 
-
-
 /* VISUAL POOL*/
-
-
 
 .dot {
 	background-color: green;
@@ -69,10 +61,31 @@ body {
 	height: 100px;
 	display: inline-flex;
 }
-
 .dot span{
 	color: white;
 	display: flex;
 	margin: auto;
 }
+
+/*  HEADER */
+
+.logo_pool {
+	width: 250px;
+}
+.nav-link {
+	font-size: 20px;
+}
+
+/* ABOUT */
+
+.page-title {
+	text-align: center;
+}
+.logo-go-and-live-group {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+
 
